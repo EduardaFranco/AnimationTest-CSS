@@ -1,0 +1,48 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+body{
+  text-align: center;
+}
+
+#facebook{
+  animation: facebook 1s ease-in-out infinite alternate;
+}
+
+@keyframes facebook{
+  from{
+    transform: rotateX(0deg);
+  }
+  to{
+    transform: rotateX(30deg);
+  }
+}
+
+#twitter{
+  animation: twitter 2s ease-in-out infinite alternate;
+}
+
+@keyframes twitter{
+  from{
+    transform: rotateX(0deg);
+  }
+  to{
+    transform: rotateX(20deg);
+  }
+}
+
+#linkedin{
+  animation: linkedin 1s ease-in-out infinite alternate;
+}
+
+@keyframes linkedin{
+  from{
+    transform: rotateX(0deg);
+  }
+  to{
+    transform: rotateX(15deg);
+  }
+}
